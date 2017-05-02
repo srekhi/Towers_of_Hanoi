@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+}
+
+#tower_game {
+  width: 800px;
+  height: 200px;
+  margin: 20% auto;
+  display: flex;
+
+}
+
+.tower {
+  flex: 1;
+  margin: 0 20px;
+  list-style: none;
+  border-bottom: 5px solid black;
+}
+
+.disk-0, .disk-1, .disk-2 {
+  height: 50px;
+  width: 50px;
+  margin: 5px auto;
+  display: block;
+  background-color: black;
+  border-radius: 30%;
+}
+
+.disk-1 {
+  height: 50px;
+  width: 100px;
+}
+
+.disk-2 {
+  height: 50px;
+  width: 150px;
+}
+
+.selected {
+  border-color: red;
+}
